@@ -1,0 +1,25 @@
+import { Building } from '../types';
+
+export const BUILDINGS: Building[] = [
+  { id: 'julian', name: 'Percy L. Julian Science & Mathematics Center', shortName: 'Julian', type: 'academic', lat: 39.63862, lng: -86.86333, isWellbeing: false },
+  { id: 'east_college', name: 'East College', shortName: 'East College', type: 'academic', lat: 39.64035, lng: -86.86066, isWellbeing: false },
+  { id: 'roy_west', name: 'Roy O. West Library', shortName: 'Roy O. West', type: 'academic', lat: 39.64085, lng: -86.86376, isWellbeing: true, resourceName: 'Learning Commons', resourceCategory: 'academic-support' },
+  { id: 'pulliam', name: 'Eugene S. Pulliam Center for Contemporary Media', shortName: 'Pulliam Center', type: 'academic', lat: 39.63754, lng: -86.86024, isWellbeing: true, resourceName: 'Pulliam Center', resourceCategory: 'creative' },
+  { id: 'mcdermond', name: 'Robert C. McDermond Center', shortName: 'McDermond Center', type: 'academic', lat: 39.63945, lng: -86.86129, isWellbeing: true, resourceName: 'McDermond Center', resourceCategory: 'career' },
+  { id: 'green_center', name: 'Green Center for the Performing Arts', shortName: 'Green Center', type: 'arts', lat: 39.63783, lng: -86.86097, isWellbeing: false },
+  { id: 'peeler', name: 'Richard E. Peeler Art Center', shortName: 'Peeler Art Center', type: 'arts', lat: 39.63864, lng: -86.86496, isWellbeing: false },
+  { id: 'union_building', name: 'Memorial Student Union Building', shortName: 'Union Building', type: 'student-life', lat: 39.63945, lng: -86.86129, isWellbeing: false },
+  { id: 'stewart_plaza', name: 'Stewart Plaza', shortName: 'Stewart Plaza', type: 'student-life', lat: 39.63945, lng: -86.86129, isWellbeing: false },
+  { id: 'hoover', name: 'Hoover Hall (Wallace-Stewart Commons)', shortName: 'Hoover Hall', type: 'dining', lat: 39.63952, lng: -86.86215, isWellbeing: false },
+  { id: 'cdi', name: 'Center for Diversity and Inclusion', shortName: 'CDI', type: 'student-life', lat: 39.63925, lng: -86.86512, isWellbeing: true, resourceName: 'Center for Diversity and Inclusion', resourceCategory: 'community' },
+  { id: 'lilly_center', name: 'Lilly Center / Welch Fitness Center', shortName: 'Lilly Center', type: 'athletics', lat: 39.63700, lng: -86.86350, isWellbeing: true, resourceName: 'Welch Fitness Center', resourceCategory: 'fitness' },
+  { id: 'buehler', name: 'Buehler Health and Wellness Suites', shortName: 'Buehler Wellness', type: 'wellness', lat: 39.63700, lng: -86.86350, isWellbeing: true, resourceName: 'Counseling Services', resourceCategory: 'health' },
+  { id: 'nature_park', name: 'DePauw Nature Park', shortName: 'Nature Park', type: 'outdoors', lat: 39.63473, lng: -86.88566, isWellbeing: true, resourceName: 'Nature Park', resourceCategory: 'nature' },
+  { id: 'bowman_park', name: 'Bowman Park', shortName: 'Bowman Park', type: 'outdoors', lat: 39.6405, lng: -86.8580, isWellbeing: false },
+  { id: 'prindle', name: 'Janet Prindle Institute for Ethics', shortName: 'Prindle Institute', type: 'academic', lat: 39.6350, lng: -86.8850, isWellbeing: true, resourceName: 'Prindle Institute', resourceCategory: 'reflection' },
+  { id: 'tenzer', name: 'Tenzer Technology Center', shortName: 'Tenzer Center', type: 'academic', lat: 39.6395, lng: -86.8630, isWellbeing: true, resourceName: 'Tenzer Technology Center', resourceCategory: 'academic-support' },
+  { id: 'hubbard', name: 'Hubbard Center for Student Engagement', shortName: 'Hubbard Center', type: 'student-life', lat: 39.6398, lng: -86.8625, isWellbeing: true, resourceName: 'Hubbard Center', resourceCategory: 'career' },
+  { id: 'hartman', name: 'Hartman Center for Civic Engagement', shortName: 'Hartman Center', type: 'student-life', lat: 39.6400, lng: -86.8620, isWellbeing: true, resourceName: 'Hartman Center', resourceCategory: 'community' },
+  { id: 'womens_center', name: "The Women's Center", shortName: "Women's Center", type: 'student-life', lat: 39.6393, lng: -86.8640, isWellbeing: true, resourceName: "The Women's Center", resourceCategory: 'community' },
+  { id: 'spiritual_life', name: 'Center for Spiritual Life', shortName: 'Spiritual Life', type: 'spiritual', lat: 39.6403, lng: -86.8607, isWellbeing: true, resourceName: 'Center for Spiritual Life', resourceCategory: 'spiritual' },
+];
