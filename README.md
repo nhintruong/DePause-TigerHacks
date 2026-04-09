@@ -39,8 +39,8 @@ Up-to-date live DePauw events pulled from CampusLabs, cross-referenced with mood
 
 ## Demo
 
-- [Watch our demo video](https://youtube.com) *(link TBD)*
-- [View our pitch deck](link TBD)
+- [Watch our demo video](https://youtube.com/shorts/YulgsJ31kwY?si=mnG8v-oo3nf7rnK0)
+- [View our pitch deck](https://drive.google.com/file/d/1j2_tpl-PsRVwF6BPpOEQLj_xw5LclPnC/view?usp=sharing)
 
 ## Tech Stack
 
